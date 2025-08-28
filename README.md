@@ -9,7 +9,7 @@
   <li>React.js</li>
   <li>Git</li>
   <li>npm packages</li>
-  <li>netlify</li>
+  <li>Vercel</li>
 </ul>
 
 <p>Some of the features of this website are:</p>
