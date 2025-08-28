@@ -27,7 +27,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 
   let show ='';
   let hide ='';
-  if(desc[projectName + 'Github']===""){
+  if(desc[projectName]===""){
     show="none";
   }
   if(desc[projectName + 'Website']===""){
@@ -48,11 +48,6 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             
             <br />
             <div className='flex justify-evenly w-[100%] items-center absolute bottom-4 right-2'>
-
-            
-            <a style={{display:show}} href={desc[projectName1 + 'Github']} target='_blank' >
-              <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 px-5 rounded-xl font-bold hover:bg-[#d9f02a] hover:text-black '><FaGithub/> Github</button>
-            </a>
 
             <a style={{display:hide}} href={desc[projectName1 + 'Website']} target='_blank'>
               <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 rounded-xl hover:bg-[#d9f02a] hover:text-black font-bold'><CgFileDocument/> Live Demo</button>
